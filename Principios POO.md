@@ -252,5 +252,8 @@ void Guerrero_destruir(Guerrero* this);
 #pragma once
 ```
 
+![image](https://github.com/user-attachments/assets/86816491-1085-4db7-b6bf-4b19d2002955)
+
+
 
 
