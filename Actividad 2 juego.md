@@ -133,7 +133,7 @@ El código se organizó en archivos separados por módulos o clases (game.c, pla
 
 ## Conclusiones
 
-La implementación de POO en este proyecto ha permitido una organización clara del código y la posibilidad de expandir y mantener el juego en el futuro. Al encapsular los datos, utilizar herencia para reutilizar el código y modularizar la estructura del proyecto, se ha logrado un diseño eficiente y fácil de entender. Esto no solo mejora la calidad del código, sino que también facilita la colaboración en proyectos más grandes y complejos.
+La implementación de POO en este proyecto ha permitido una organización clara del código y la posibilidad de expandir y mantener el juego en el futuro. Al encapsular los datos, utilizar herencia para reutilizar el código y modularizar la estructura del proyecto, se ha logrado un diseño eficiente. Esto  mejora la calidad del código. EL codigo no funciona, al añadir objetos y cambios y mejoras en el personaje, se me complicó el codigo y tengo un error que no supe solucionarlo
 
 # main.c 
 ```c
