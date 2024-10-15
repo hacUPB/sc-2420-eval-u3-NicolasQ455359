@@ -5,56 +5,96 @@
 ## Clases en el Diagrama UML
 Entity
 
-Atributos:
+Atributos: 
+
 x: int
+
 y: int
+
 width: int
+
 height: int
+
 texture: SDL_Texture*
+
 Métodos:
+
 Update()
+
 Render()
+
 Player (hereda de Entity)
 
 Atributos:
+
 score: int
+
 health: int
+
 fireRate: int (nueva mejora)
+
 damage: int (nueva mejora)
+
 Métodos:
+
 Update()
+
 Shoot()
+
 Enemy (hereda de Entity)
 
 Atributos:
+
 health: int
+
 Métodos:
+
 Update()
+
 Bullet (hereda de Entity)
 
 Atributos:
+
 damage: int
+
 Métodos:
+
 Update()
+
 PowerUp (agregación de Entity)
 
 Atributos:
+
 isActive: int
+
 activate(Player* player): void
+
 Métodos:
+
 PowerUp_Create(int x, int y, SDL_Texture* texture)
+
 PowerUp_Activate(Player* player)
+
 Game
 
 Atributos:
+
 Player* player
+
 Enemy** enemies
+
 Bullet** bullets
+
 PowerUp* powerUp
+
 int enemyCount
+
 int bulletCount
+
 Métodos:
+
 Game_Update()
+
 Game_Reset()
 
 ![diagrama_uml_detallado_juego](https://github.com/user-attachments/assets/b75a9397-5c92-4aab-a5e1-594348a29742)
